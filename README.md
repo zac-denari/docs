@@ -1,32 +1,54 @@
-# Mintlify Starter Kit
+# Required .mdx files for Dexari Help Center navigation
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+## Getting started
+- index.mdx
+- about.mdx
+- key-features.mdx
 
-- Guide pages
-- Navigation
-- Customizations
-- API Reference pages
-- Use of popular components
+## Account
+- account/overview.mdx
+- account/create.mdx
+- account/import-wallet.mdx
+- account/social-login.mdx
+- account/passkey-2fa.mdx
+- account/referral-code.mdx
+- account/login-recovery.mdx
+- account/security.mdx
+- account/export-keys.mdx
 
-### Development
+## Funding
+- funding/overview.mdx
+- funding/deposit.mdx
+- funding/withdraw.mdx
+- funding/supported-assets.mdx
+- funding/cross-chain.mdx
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview the documentation changes locally. To install, use the following command
+## Trading
+- trading/overview.mdx
+- trading/spot.mdx
+- trading/perpetuals.mdx
+- trading/leverage-orders.mdx
+- trading/alerts.mdx
+- trading/risk-management.mdx
 
-```
-npm i -g mint
-```
+## Rewards
+- rewards/overview.mdx
+- rewards/referrals.mdx
+- rewards/affiliates.mdx
+- rewards/points-tasks.mdx
 
-Run the following command at the root of your documentation (where docs.json is)
+## Support
+- support/troubleshooting.mdx
+- support/faqs.mdx
+- support/contact.mdx
 
-```
-mint dev
-```
+## Resources
+- resources/glossary.mdx
+- resources/fee-schedule.mdx
+- resources/roadmap.mdx
+- resources/community.mdx
+- resources/app-updates.mdx
 
-### Publishing Changes
-
-Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- If the dev environment isn't running - Run `mint update` to ensure you have the most recent version of the CLI.
-- Page loads as a 404 - Make sure you are running in a folder with `docs.json`
+## Legal
+- legal/terms-of-use.mdx
+- legal/privacy-policy.mdx
