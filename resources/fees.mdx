@@ -1,0 +1,36 @@
+---
+title: Fees
+description: "A detailed overview of all trading, transaction, and transfer fees on Dexari."
+---
+
+## Trading fees by tier
+
+| Tier      | Monthly volume   | Perps fees | Spot fees |
+|-----------|------------------|------------|-----------|
+| Legion    | $0 – $10k        | 0.05%      | 0.10%     |
+| Centurion | $10k – $100k     | 0.04%      | 0.08%     |
+| Praetor   | $100k – $1M      | 0.03%      | 0.06%     |
+| Imperator | $1M – $5M        | 0.02%      | 0.04%     |
+| Emperor   | $5M+             | 0.01%      | 0.02%     |
+
+> **Note:** Additional Hyperliquid fees may apply on top of Dexari fees. For full details, see the [Hyperliquid fee schedule](https://hyperliquid.gitbook.io/hyperliquid-docs/trading/fees).
+
+## Transaction fees
+
+| Transaction type                                      | Fees                                      |
+|-------------------------------------------------------|--------------------------------------------|
+| Deposit funds using a payment method (coming soon)    | 3rd-party payment processing fees. More information will be posted once this feature is live. |
+| Receive crypto assets from another wallet address      | None                                      |
+| Send crypto assets to another wallet address           | See details below                         |
+| Transfer funds from Main to Perps                      | See details below                         |
+| Transfer funds from Perps to Main                      | Hyperliquid $1 withdrawal fee              |
+| Transfer funds from Perps to Spot, or Spot to Perps    | None                                      |
+
+**Details:**
+- **Send crypto assets to another wallet address:**
+  - Ethereum mainnet: Gas fees apply (variable).
+  - Arbitrum, Optimism, Base & BNB Chain: FREE (Dexari sponsors all gas fees on L2s).
+- **Transfer funds from Main to Perps:**
+  - Ethereum mainnet: Gas fees apply (variable).
+  - Arbitrum, Optimism, Base & BNB Chain: FREE (Dexari sponsors all gas fees on L2s).
+  - Bridging fees (cross-chain transfers only): ZeroDev may charge 0.2% on transfers up to $500 and 0.1% on transfers over $500, capped at $5 per transaction.

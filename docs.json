@@ -2,101 +2,153 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
   "name": "Dexari Help Center",
+  "description": "Dexari is a next-generation decentralized trading platform offering deep liquidity, lightning-fast execution, and advanced trading tools. Built for serious traders, Dexari empowers users with self-custody, privacy, and true ownership—no KYC, no lockouts, and complete transparency. Trade perps and spot markets with up to 40x leverage, pro-grade analytics, and seamless cross-chain funding. Experience full power and control, anytime, anywhere.",
   "colors": {
-    "primary": "#E5DBB7",
-    "light": "#FFFFFF",
+    "primary": "#FAFAFA",
+    "light": "#E5DBB7",
     "dark": "#202022"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
+        "group": "Getting started",
+        "pages": [
+          "index",
+          "about",
+          "key-features"
+        ]
+      },
+      {
+        "group": "Account",
+        "pages": [
+          "account/onboarding",
+          "account/deposit-funds",
+          "account/move-funds",
+          "account/security",
+          "account/export-keys"
+        ]
+      },
+      {
+        "group": "Trade",
+        "pages": [
+          "trading/how-to-trade"
+        ]
+      },
+      {
+        "group": "Rewards",
+        "pages": [
+          "rewards/points",
+          "rewards/tasks",
+          "rewards/referrals",
+          "rewards/affiliates"
+        ]
+      },
+      {
+        "group": "Resources",
+        "pages": [
+          "resources/glossary",
+          "resources/faqs",
+          "resources/fees",
+          "resources/app-updates"
+        ]
+      },
+      {
+        "group": "Legal",
+        "pages": [
+          "legal/terms-of-use",
+          "legal/privacy-policy"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://dexari.com"
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/DexariDotCom",
+      "linkedin": "https://www.linkedin.com/company/example",
+      "github": "https://github.com/example",
+      "slack": "https://example.com/community"
+    },
+    "links": [
+      {
+        "header": "Resources",
+        "items": [
           {
-            "group": "Get Started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "label": "Customers",
+            "href": "https://example.com/customers"
           },
           {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
+            "label": "Enterprise",
+            "href": "https://example.com/enterprise"
+          },
+          {
+            "label": "Request Preview",
+            "href": "https://example.com/preview"
           }
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
+        "header": "Company",
+        "items": [
           {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
+            "label": "Careers",
+            "href": "https://example.com/careers"
           },
           {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "label": "Blog",
+            "href": "https://example.com/blog"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://example.com/legal/privacy"
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+    ]
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
+  },
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-XXXXXXXXXX"
+    },
+    "koala": {
+      "publicApiKey": "pk_example_key_123"
+    },
+    "telemetry": {
+      "enabled": true
+    },
+    "cookies": {
+      "key": "example_cookie_key",
+      "value": "example_cookie_value"
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude"
+    ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+  "errors": {
+    "404": {
+      "redirect": true
     }
   },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+  "background": {
+    "color": {
+      "light": "#FAFAFA",
+      "dark": "#202022"
     }
+  },
+  "search": {
+    "prompt": "Search help center..."
   }
 }
