@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "willow",
+  "name": "Dexari Help Center",
   "colors": {
-    "primary": "#FFFFFF",
+    "primary": "#E5DBB7",
     "light": "#FFFFFF",
     "dark": "#202022"
   },
